@@ -1,0 +1,217 @@
+.main{
+background-image:url('sports1.jpg');
+background-size:100% 100%;
+width:100%;
+}
+#main2{
+background-image:url('6.jpg');
+background-size:100% 100%;
+width:80%;
+height:85vh;
+margin-top:10px;
+}
+
+#img1{
+  
+  height:50px;
+  width: 100px;
+  margin-top:10px;
+   box-shadow: 5px 10px 18px black;
+}
+.menu{
+  background-color:black;
+  width: 100%;
+  height: 80px;
+border: 1px solid black;
+border-radius:5px;
+box-shadow: 5px 10px 18px black;
+border-bottom:3px solid orange;
+}
+.leftmenu{
+  width:15%;
+  float:left;
+}
+.leftmenu h4{
+
+  padding-left:70px;
+  font-weight: bold;
+  color:white;
+  font-size: 15px;
+}
+.rightmenu{
+  width:85%;
+ height:100px;
+ float:right;
+}
+.rightmenu ul{
+  margin-left:200px;
+}
+.rightmenu ul li:hover{
+  color:orange;
+  opacity:1.5;
+}
+.rightmenu ul li {
+  opacity:0.9;
+  display: inline-block;
+  font-size:25px;
+  list-style: none;
+  color:white;
+ text-shadow: 2px 2px black;
+  font-weight: bold;
+ 
+  margin-left:60px;
+  text-transform:uppercase;
+}
+#img2{
+  
+  height:70px;
+  width: 100px;
+  margin-top:10px;
+}
+#text1{
+ margin-top:100px;
+ width:45%;
+ height:40px;
+ border:1px solid black;
+ box-shadow: 5px 10px 18px black;
+ font-size:20px;
+text-align: center;
+}
+
+#id1,#id13,#id42{
+  color:white;
+  font-weight:bold;
+}
+#button4{
+  margin-top:0px;
+  font-size:20px;
+  width:20%;
+  height:30px;
+  color:white;
+  background-color:black;
+  margin-left:20px;
+}
+#div4 table{
+  width:90%;
+}
+#div3 table{
+  width:90%;
+}
+.search-bar{
+  width:40%;
+  background-color:rgb(0,0,0,0.7);
+  margin-top:80px;
+  border-radius:30px;
+}
+
+.search{
+  background-image:url('6.jpg');
+  background-position:100% 100%;
+  height:100vh;
+  border-bottom:4px solid orange;
+}
+
+#img3{
+     margin-top:50px;
+     width:30%;
+     border-radius:60%;
+}
+#display{
+  margin-top:30px;
+  border:2px solid lightgrey;
+}
+.heading{
+	
+}
+.tb1{
+  width:80%;
+  color:white;
+  text-shadow:2px 2px black;
+}
+.footer{
+  margin-top:10px;
+  background-color:rgb(0,0,0,0.9);
+}
+.tb1 li{
+  color:white;
+  list-style-type: none;
+
+}
+.tb1 li:hover{
+  color:orange;
+}
+#h{
+  width:70%;
+  color:white;
+}
+.tb1 td,th{
+  padding:5px;
+  width:33.3%;
+}
+#logoimg{
+  width:10%;
+ margin-left:10px;
+}
+p{
+  color:lightgrey;
+}
+#logoimg1{
+  width:10%;
+  margin-left:23px;
+}
+.heading h1,h2,h4{
+  color:;
+}
+#text2{
+ margin-top:10px;
+ width:45%;
+ height:40px;
+ border:1px solid black;
+ box-shadow: 5px 10px 18px black;
+font-size:30px;
+text-align: center;
+}
+#button5{
+  margin-top:0px;
+  font-size:20px;
+  width:20%;
+  height:30px;
+  color:white;
+  background-color:black;
+  margin-left:20px;
+}
+.search-bar2{
+  width:30%;
+  background-color:rgb(0,0,0,0.7);
+  border-radius:30px;
+}
+.results{
+  margin-top:40px;
+  width:60%;
+}
+.tb2{
+  color:white;
+  width:90%;
+}
+.tb2 th{
+color:lightblue;
+font-size:40px;
+text-shadow: 2px 2px black
+}
+.tb2 td{
+font-size:25px;
+}
+.tb2 td,th{
+  padding:10px;
+  width:33.3%;
+  text-align:center;
+}
+#resume{
+  width:20%;
+  height:40px;
+  font-size:20px;
+  border-radius:10px;
+}
+#resume:hover{
+  background-color:orange;
+}
