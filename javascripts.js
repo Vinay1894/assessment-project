@@ -5,7 +5,7 @@ var e1=document.getElementById("button4")
 console.log(e1)
 e1.addEventListener("click",testClick)
 function testClick(){
-var url="http://cricapi.com/api/playerFinder?apikey=7RZ2772zwAXa3wtsgoBBPALYjEV2&name="+e.value
+var url="https://cricapi.com/api/playerFinder?apikey=7RZ2772zwAXa3wtsgoBBPALYjEV2&name="+e.value
 var xhr=new XMLHttpRequest()
 xhr.open('GET',url)
 xhr.onreadystatechange=Test
@@ -15,7 +15,7 @@ function Test()
 	{
 		var res_data=JSON.parse(this.responseText)
 		console.log(res_data)
-		var url1="http://cricapi.com/api/playerStats?apikey=7RZ2772zwAXa3wtsgoBBPALYjEV2&pid="+ res_data.data[0].pid
+		var url1="https://cricapi.com/api/playerStats?apikey=7RZ2772zwAXa3wtsgoBBPALYjEV2&pid="+ res_data.data[0].pid
 		var xhr1=new XMLHttpRequest()
 		xhr1.open('GET',url1)
 		xhr1.onreadystatechange=Test1
