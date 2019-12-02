@@ -14,7 +14,7 @@ var e3=document.getElementById("button5")
 console.log(e3)
 e3.addEventListener("click",testClick1)
 function testClick1(){
-	var url2="http://cricapi.com/api/matches/?apikey=7RZ2772zwAXa3wtsgoBBPALYjEV2"
+	var url2="https://cricapi.com/api/matches/?apikey=7RZ2772zwAXa3wtsgoBBPALYjEV2"
 	var xhr2=new XMLHttpRequest()
 	xhr2.open('GET',url2)
     xhr2.onreadystatechange=Test2
@@ -24,7 +24,7 @@ function testClick1(){
     	{
     	var matches=JSON.parse(this.responseText)
     	console.log(matches)
-        var url3="http://cricapi.com/api/cricketScore/?apikey=7RZ2772zwAXa3wtsgoBBPALYjEV2&unique_id="+ matches.matches[e2.value].unique_id
+        var url3="https://cricapi.com/api/cricketScore/?apikey=7RZ2772zwAXa3wtsgoBBPALYjEV2&unique_id="+ matches.matches[e2.value].unique_id
         var xhr3=new XMLHttpRequest()
         xhr3.open('GET',url3)
         xhr3.onreadystatechange=Test3
