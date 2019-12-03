@@ -10,9 +10,9 @@ current matches results,score and upcoming matches fixture through their match i
 * Javascript
 * Ajax
 ## **Sources**
-*Cric API
-##**API End Points**
-*[To access player id](http://cricapi.com/api/playerFinder?apikey=7RZ2772zwAXa3wtsgoBBPALYjEV2&name=)
-*[To access player stats by player id.](http://cricapi.com/api/playerStats?apikey=7RZ2772zwAXa3wtsgoBBPALYjEV2&pid=)
-*[To access match id by match key](http://cricapi.com/api/matches/?apikey=7RZ2772zwAXa3wtsgoBBPALYjEV2)
-*[To access match score by match id](http://cricapi.com/api/cricketScore/?apikey=7RZ2772zwAXa3wtsgoBBPALYjEV2&unique_id=)
+* Cric API
+## **API End Points**
+* [To access player id](http://cricapi.com/api/playerFinder?apikey=7RZ2772zwAXa3wtsgoBBPALYjEV2&name=)
+* [To access player stats by player id.](http://cricapi.com/api/playerStats?apikey=7RZ2772zwAXa3wtsgoBBPALYjEV2&pid=)
+* [To access match id by match key](http://cricapi.com/api/matches/?apikey=7RZ2772zwAXa3wtsgoBBPALYjEV2)
+* [To access match score by match id](http://cricapi.com/api/cricketScore/?apikey=7RZ2772zwAXa3wtsgoBBPALYjEV2&unique_id=)
